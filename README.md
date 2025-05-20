@@ -11,3 +11,5 @@ def classify_with_openai(url):
         ]
     )
     return response.choices[0].message.content.strip()
+
+# this is my task 1 i have done this Api integration by using python 
